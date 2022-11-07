@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.23)
+project(Projeting2ECECITY C)
+set(CMAKE_C_STANDARD 99)
+add_executable(Projeting2ECECITY main.c)
+target_link_libraries(Projeting2ECECITY -lmingw32 -lallegro-5.0.10-monolith-md-debug)
